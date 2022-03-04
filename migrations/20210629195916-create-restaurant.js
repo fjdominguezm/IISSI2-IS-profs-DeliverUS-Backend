@@ -68,7 +68,6 @@ module.exports = {
         defaultValue: new Date()
       },
       userId: {
-        allowNull: false,
         type: Sequelize.INTEGER,
         onDelete: 'CASCADE',
         references: {
